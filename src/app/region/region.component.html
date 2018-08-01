@@ -1,0 +1,26 @@
+<!-- Material checked -->
+<div class="form-check">
+   
+
+    <div>
+    
+    <table class="table">
+      <thead class="thead-light">
+        <th>UserId</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Body</th>
+      
+      </thead>
+      <tbody>
+          
+        <tr *ngFor='let record of records'>
+          <th>{{record.userId}}</th>
+          <th>  {{record.id}}</th>
+          <th>{{record.title}}</th>
+          <th>{{record.body}}</th>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</div>
